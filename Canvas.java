@@ -1,11 +1,4 @@
-/* Name:Muhammad Usama Ijaz
- * netid: mijaz
- * email: mijaz@u.rochester.edu
- * Lab: Mon/Wed 6:15 PM - 7:40 PM
- * Team member: Abdelrahman Abdelkader
- * netid: aabdelka
- * email: aabdelka@u.rochester.edu
- * Lab section: Mon/Wed 02:00 PM - 3:15 PM
+/* Author:Muhammad Usama Ijaz
  */
 import java.awt.BorderLayout;
 import java.awt.Dimension;

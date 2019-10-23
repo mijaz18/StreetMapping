@@ -1,11 +1,4 @@
-/* Name:Muhammad Usama Ijaz
- * netid: mijaz
- * email: mijaz@u.rochester.edu
- * Lab: Mon/Wed 6:15 PM - 7:40 PM
- * Team member: Abdelrahman Abdelkader
- * netid: aabdelka
- * email: aabdelka@u.rochester.edu
- * Lab section: Mon/Wed 02:00 PM - 3:15 PM
+/* Author:Muhammad Usama Ijaz
  */
 import java.awt.Color;
 import java.awt.Graphics;
@@ -221,13 +214,11 @@ if(Path.equals("RED")) {
 					List<Vertex> l = new LinkedList<Vertex>();
 					if (os.nextToken().equals("i")) {
 						String id = os.nextToken();
-						System.out.println("ITS PRINTING" +id);
 						double longi = Math.toRadians(Double.valueOf(os.nextToken()));
 						double lat = Math.toRadians(Double.valueOf(os.nextToken()));
 						Vertex v = new Vertex(id, longi, lat);
 						getv.put(id, v);
 						vv.add(v);
-						
 						longit.put(id, longi);
 						latit.put(id, lat);
 						store.put(id, l);
@@ -418,7 +409,7 @@ if(Path.equals("RED")) {
 		traversal(getv(four), getv(five));
 		 System.out.println("Path: ");
 		 for(Vertex i:ss) {
-			 System.out.print(i.ID +" , ");
+			 System.out.println( i.ID);
 		 }
 		 double dis=ss.get(ss.size()-1).distance;
 		 if(dis>=Integer.MAX_VALUE) {
@@ -437,7 +428,7 @@ if(Path.equals("RED")) {
 				traversal(getv(three), getv(four));
 			 System.out.println("Path: ");
 			 for(Vertex i:ss) {
-				 System.out.println("{"+ i.ID + "}\n");
+				 System.out.println( i.ID);
 			 }
 			 double dis=ss.get(ss.size()-1).distance;
 			 if(dis>=Integer.MAX_VALUE) {
